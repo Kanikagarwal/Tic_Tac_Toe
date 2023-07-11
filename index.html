@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <h1>TicTacToe.com</h1>
+<div class="game-container">
+    <div class="container">
+        <div class="line"></div>
+        <div class="box bl-0 bt-0"><span class="boxText"></span></div>
+        <div class="box bt-0"><span class="boxText"></span></div>
+        <div class="box bt-0 br-0"><span class="boxText"></span></div>
+        <div class="box bl-0"><span class="boxText"></span></div>
+        <div class="box"><span class="boxText"></span></div>
+        <div class="box br-0"><span class="boxText"></span></div>
+        <div class="box bl-0 bb-0"><span class="boxText"></span></div>
+        <div class="box bb-0"><span class="boxText"></span></div>
+        <div class="box bb-0 br-0"><span class="boxText"></span></div>
+    </div>
+
+    <div class="game-info">
+        <h2>Welcome to TicTacToe.com</h2>
+        <p>Turn: X</p>
+        <button onclick="reset()" id="reset">Reset</button>
+        <div class="image">
+            <img src="excited.gif" alt="GIF">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
